@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto p-6">
-    <h1 class="text-3xl font-bold mb-4">Welcome to Fresh Market</h1>
+    <h1 class="text-3xl font-bold mb-4">Welcome to the Bordertown Fruit Market</h1>
     <p class="mb-4">Pick click and collect your favourite fruit and vegetables!</p>
     <router-link to="/shop">
       <button class="btn-primary">Shop Now</button>

@@ -2,8 +2,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Example pages
-import Home from '@/pages/Home.vue'
-import Products from '@/pages/Products.vue'
+import Home from '../pages/Home.vue'
+import Products from '../pages/Shop.vue'
 
 const routes = [
   { path: '/', component: Home },
