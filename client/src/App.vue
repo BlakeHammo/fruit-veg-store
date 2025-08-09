@@ -6,8 +6,8 @@ import Products from './components/Products.vue';
 </script>
 
 <template>
-  <div>
-    <nav class="bg-green-600 p-4 text-white">
+  <div class="p-2">
+    <nav class="bg-green-500 text-black p-2 fixed top-0 left-0 w-full z-50">
       <router-link to="/" class="mr-4">Home</router-link>
       <router-link to="/shop" class="mr-4">Shop</router-link>
       <router-link to="/cart">Cart</router-link>

@@ -1,7 +1,5 @@
 <template>
-  <div class="products">
-    <h1>Fruit & Veg Shop</h1>
-
+  <div class="products bg-white">
     <div v-if="loading" class="loading">Loading products...</div>
     <div v-if="error" class="error">{{ error }}</div>
 
