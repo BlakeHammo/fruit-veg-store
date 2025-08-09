@@ -3,8 +3,6 @@
 const API_BASE = 'http://localhost:5000/api';
 import Products from './components/Products.vue';
 
-
-
 </script>
 
 <template>

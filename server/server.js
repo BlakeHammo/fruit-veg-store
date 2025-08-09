@@ -6,6 +6,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
+// Example test route
+app.get('/api/hello', (req, res) => {
+  res.json({ message: 'Hello from API!' });
+});
+
+
 // GET all products
 app.get('/api/products', async (req, res) => {
   try {
