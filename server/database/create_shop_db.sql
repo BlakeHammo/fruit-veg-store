@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS products (
 -- Example products
 INSERT INTO products (name, description, image_url, price, stock_qty, category, unit)
 VALUES
-('Bananas', 'Fresh ripe bananas, perfect for smoothies and snacks.', '/images/bananas.jpg', 3.50,  100, 'Fruit', 'kg'),
-('Carrots', 'Crisp, sweet carrots ideal for salads or cooking.', '/images/carrots.jpg', 2.00,  50, 'Vegetable', 'kg'),
-('Parsley', 'Fresh parsley bunch, perfect for garnishing dishes.', '/images/parsley.jpg', 1.20, 20, 'Herbs', 'bunch');
+('Bananas', 'Fresh ripe bananas, perfect for smoothies and snacks.', '/images/products/banana.jpeg', 3.50,  100, 'Fruit', 'kg'),
+('Carrots', 'Crisp, sweet carrots ideal for salads or cooking.', '/images/products/carrots.jpg', 2.00,  50, 'Vegetable', 'kg'),
+('Parsley', 'Fresh parsley bunch, perfect for garnishing dishes.', '/images/products/parsley.jpg', 1.20, 20, 'Herbs', 'bunch');
 
 -- ========================
 -- ORDERS TABLE
