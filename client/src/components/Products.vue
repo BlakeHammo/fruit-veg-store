@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-6">
+  <div>
     <div>
       <ProductCard 
         v-for="p in products" 

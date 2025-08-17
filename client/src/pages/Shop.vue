@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-6">
+  <div>
     <h2 class="text-2xl font-semibold mb-4 text-white">Products</h2>
     <Products />
   </div>
